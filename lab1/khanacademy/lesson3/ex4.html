@@ -1,0 +1,118 @@
+<!-- Create a web page with your favorite recipes! The recipe book should have a table of contents linking to 
+    each recipe below, using internal links. Each recipe should have a table for the ingredients, a list of 
+    details, and a list and/or paragraphs of the steps required. If you use recipes from the internet, 
+    be sure to add a link to the website.
+
+Use CSS to style the recipe book, using a mix of the simple selectors and colors that you've learned.
+
+Tip: Can't find the images you want in our image selector? You can also bring in images from Wikipedia. 
+To do that, use a site-restricted Google search, then click "View image" on the result you like, 
+and copy the URL into your <img> tag.
+
+Contains at least three recipes.
+Has three internal links in the table of contents that correctly jump to the specified recipe below.
+Has a list for each recipe.
+Has a table with at least 2 rows for each recipe.
+Has steps described in paragraphs and/or lists.
+Uses at least 2 CSS element selectors.
+Uses at least 1 CSS id or class selector.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Recipe Book</title>
+    <style>
+    body {
+        background-color: #f8f8f8;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+    }
+    
+    nav {
+        background-color: #555;
+        color: #fff;
+    }
+    
+    nav a {
+        color: #fff;
+    }
+    
+    main {
+        background-color: #fff;
+    }
+    
+    th {
+        background-color: #f2f2f2;
+    }
+    
+    footer {
+        background-color: #555;
+        color: #fff;
+    } </style>
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>My Recipe Book</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#recipe1">Recipe 1</a></li>
+            <li><a href="#recipe2">Recipe 2</a></li>
+            <li><a href="#recipe3">Recipe 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="recipe1">
+            <h2>Recipe 1: Spaghetti Bolognese</h2>
+            <img src="https://example.com/spaghetti.jpg" alt="Spaghetti Bolognese">
+
+            <table>
+                <caption>Ingredients</caption>
+                <tr>
+                    <th>Quantity</th>
+                    <th>Ingredient</th>
+                </tr>
+                <tr>
+                    <td>500g</td>
+                    <td>Spaghetti</td>
+                </tr>
+                <tr>
+                    <td>400g</td>
+                    <td>Ground Beef</td>
+                </tr>
+            </table>
+
+            <h3>Details</h3>
+            <ul>
+                <li>Prep Time: 15 minutes</li>
+                <li>Cook Time: 30 minutes</li>
+                <li>Servings: 4</li>
+            </ul>
+
+            <h3>Steps</h3>
+            <ol>
+                <li>Boil water and cook spaghetti according to package instructions.</li>
+                <li>In a pan, brown ground beef over medium heat.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Recipe Book</p>
+    </footer>
+
+</body>
+
+</html>
