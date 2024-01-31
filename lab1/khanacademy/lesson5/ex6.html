@@ -6,4 +6,88 @@ tool. Sketch out the vision you have in your head and go through a few prototype
 
 Then, when you're ready, try to implement your event invite in HTML/CSS. If you get stuck on something that's hard 
 to transfer from paper to HTML, try searching on the internet or clicking "Request Help." 
-I bet you'll learn something from the process.-->
+I bet you'll learn something from the process.
+
+Must contain some sort of event details.
+Must use at least 6 different HTML tags.
+Must have at least 3 CSS rules.
+Must use at least 4 different CSS properties.
+Must not have any errors or bad practices.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 50px;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>You're Invited to a Special Event!</h1>
+
+    <p>Join us for an unforgettable gathering filled with laughter, joy, and great company.</p>
+
+    <p>Event Details:</p>
+    <ul>
+        <li><strong>Date:</strong> January 31, 2024</li>
+        <li><strong>Time:</strong> 7:00 PM</li>
+        <li><strong>Location:</strong> Noni Restaurant</li>
+    </ul>
+
+    <p>Guest List:</p>
+    <ul>
+        <li>John Doe</li>
+        <li>Jane Smith</li>
+        <li>Alex Johnson</li>
+        <!-- Add more guest names as needed -->
+    </ul>
+
+    <button onclick="rsvp()">RSVP Now</button>
+
+    <script>
+        function rsvp() {
+            alert("Thank you for RSVPing! We look forward to seeing you at the event.");
+        }
+    </script>
+
+</body>
+</html>

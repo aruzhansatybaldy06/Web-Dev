@@ -8,4 +8,81 @@ internally link to each entry. Use CSS text properties to style your blog - like
 line height, and font styles of various sections.
 
 If you like your blog, then you could use it to document your journey here - make it a featured project on 
-your profile, then people that visit your profile will get to read about your journey!-->
+your profile, then people that visit your profile will get to read about your journey!
+
+Must contain at least two blog posts.
+Must have a table of contents that links to the posts.
+Must have at least 3 CSS rules.
+Must use at least 4 different CSS properties that start with "font-".
+Must not have any errors or bad practices.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Programming Journey</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+            font-family: 'Helvetica', sans-serif;
+        }
+
+        p {
+            color: #555;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Programming Journey</h1>
+
+    <h2 id="post1">Entry 1: Learning HTML and CSS</h2>
+    <p>Started my coding journey today! Learned the basics of HTML and CSS. Excited to build my first web page. Used a combination of divs and spans to structure the content. <a href="#post2">Read more...</a></p>
+
+    <h2 id="post2">Entry 2: JavaScript Adventures</h2>
+    <p>Delved into JavaScript today. Explored variables, loops, and functions. Built a simple interactive webpage. Feeling the power of dynamic scripting. Can't wait to learn more! <a href="#post1">Read more...</a></p>
+
+    <h2>Table of Contents</h2>
+    <table>
+        <tr>
+            <th>Entry</th>
+            <th>Title</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><a href="#post1">Learning HTML and CSS</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><a href="#post2">JavaScript Adventures</a></td>
+        </tr>
+    </table>
+
+</body>
+</html>
