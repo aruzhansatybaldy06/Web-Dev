@@ -27,3 +27,14 @@ alert('World');
 alert('Hello');
 */
 alert('World');
+
+//7
+alert("Hello");
+[1, 2].forEach(alert);
+
+//8
+alert("Hello")
+[1, 2].forEach(alert); //error
+
+
+

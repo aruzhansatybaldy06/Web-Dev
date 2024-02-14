@@ -21,12 +21,11 @@ body {
     max-width: 540px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px #448cff;
+    box-shadow: 0 0 10px #9f4ca2;
     padding: 40px;
 }
 
 .todo-app h2 {
-    
     color: #003c9c;
     font-size: 24px;
     margin-bottom: 20px;
