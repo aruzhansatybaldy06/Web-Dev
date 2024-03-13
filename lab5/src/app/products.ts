@@ -12,6 +12,9 @@ export interface Product {
     currentImageIndex: number;
   }
   
+ 
+  
+
   export const products = [
     {
       id: 1,
